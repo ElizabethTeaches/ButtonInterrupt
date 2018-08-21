@@ -17,7 +17,7 @@ const int buttonPin = 4;
 
 const int ledPin = 0;
 
-boolean ledState = false;
+bool ledState = false;
 
 void setup() {
   pinMode(ledPin, OUTPUT);
